@@ -1,0 +1,253 @@
+﻿header
+{
+    background-color: #EFEFEF;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    display: table;
+    width: 100%;
+    padding: 2px;
+}
+
+body
+{
+	background-color: #ADBFCF;
+}
+
+.diviut
+{
+	background-color: #EFEFEF;
+	border: 1px solid #3A4476;
+    box-shadow: 5px 5px 5px #AAAAAA;
+	border-radius:10px;
+	padding-top:8px;
+    padding-bottom:8px;
+}
+
+label
+{
+	float: right;
+}
+
+
+h1
+{
+	text-align: center;
+}
+
+input
+{
+	
+}
+
+th
+{
+	border: 2px solid black;
+	padding: 6px;
+}
+
+th, td, input
+{
+	font-size: 20px;
+}
+
+.seance
+{
+	background-color: #dddddd;
+}
+
+td
+{
+	padding: 4px;
+	text-align: center;
+}
+
+.module
+{
+	text-align: left;
+	padding: 6px;
+}
+
+.description
+{
+	text-align: left;
+}
+
+.vide
+{
+	border: 0px black;
+	background-color: #EFEFEF;
+}
+
+.sansCouleur
+{
+	border: 0px transparent;
+	background-color: transparent;
+	box-shadow: 5px 5px 5px transparent;
+}
+
+table
+{
+	vertical-align: center;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+a
+{
+    color: black;
+}
+
+a:visited {  /*lien visité*/
+    color: black; 
+    text-decoration: none;
+} 
+
+a:active {  /*lien actif */
+    color: orange;
+}
+
+a:hover { /*lorsque le pointeur de la souris survole un lien*/
+	color: orange;
+}
+
+a:link
+{
+	text-decoration:none;
+}
+
+.gros
+{
+	font-size: 30px;
+}
+
+input[type=checkbox] {
+    transform: scale(2);
+}
+
+.divnav
+{
+    display: table-cell;
+    vertical-align: top;
+	width: 15%;
+}
+
+.table100
+{
+	display:table;
+	width:100%;
+}
+
+.positionNav
+{
+	margin-right: 10px;
+	padding-top:  10px;
+	padding-right:10px;
+}
+
+fieldset
+{
+	padding-bottom:0px;
+}
+#avant
+{
+    background:url(../images/fleche_gauche.png);
+    border:none;
+    width: 40px; /* largeur à spécifier */
+    height: 40px; /* longueur à spécifier */
+    cursor: pointer;
+}
+
+#apres
+{
+    background:url(../images/fleche_droite.png);
+    border:none;
+    width: 40px; /* largeur à spécifier */
+    height: 40px; /* longueur à spécifier */
+    cursor: pointer;
+}
+
+#ajouter
+{
+    background:url(../images/plus.png);
+    border:none;
+    width: 40px; /* largeur à spécifier */
+    height: 40px; /* longueur à spécifier */
+    cursor: pointer;
+}
+
+#supprimer
+{
+    background:url(../images/non.png);
+    border:none;
+    width: 40px; /* largeur à spécifier */
+    height: 40px; /* longueur à spécifier */
+    cursor: pointer;
+}
+
+.erreur 
+{
+    color: red;
+    font-size: 30px;
+    font: bold;
+}
+.listModule
+{
+    font-size: 1.5em;
+    border-collapse: collapse;
+}
+.listModule td
+{
+    border: 1px solid black;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.listModule input
+{
+    font-size: 20px;
+}
+.color
+{
+    width: 100px;
+    height: 50;
+}
+
+.tailleLib
+{
+	font-size:26px;
+}
+
+.red
+{
+	color : red;
+}
+
+.piece_jointe
+{
+    width: 25px; /* largeur à spécifier */
+    height: 25px; /* longueur à spécifier */
+}
+
+hr 
+{
+		border:2px solid black;
+}
+.width100
+{
+	width:100%;
+}
+
+.aligneGauche
+{
+	text-align:left;
+}
+
+.navDeco
+{
+		width: 80%;
+		display: block;
+		margin: auto;
+}

@@ -1,0 +1,106 @@
+html, body
+{
+
+}
+
+header
+{
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    display: table;
+    width: 99.5%;
+    margin-bottom: 2%;
+    padding: 2px;
+}
+
+body
+{
+    background-color: #ADBFCF;
+}
+
+div
+{
+    background-color: #EFEFEF;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    display: table;
+    width: 99.5%;
+}
+
+th
+{
+    border: 2px solid black;
+    padding: 6px;
+}
+
+h1
+{
+	text-align: center;
+}
+
+tr
+{
+
+}
+td
+{
+    padding: 4px;
+    text-align: center;
+}
+
+td, input, select
+{
+	font-size: 30px;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+#ajouter
+{
+    background:url(../images/plus.png);
+    border:none;
+    width: 40px; /* largeur à spécifier */
+    height: 40px; /* longueur à spécifier */
+    cursor: pointer;
+}
+
+#supprimer
+{
+    background:url(../images/non.png);
+    border:none;
+    width: 40px; /* largeur à spécifier */
+    height: 40px; /* longueur à spécifier */
+    cursor: pointer;
+}
+
+.erreur 
+{
+    color: red;
+    font-size: 30px;
+    font: bold;
+}
+.listModule
+{
+    font-size: 1.5em;
+    border-collapse: collapse;
+}
+.listModule td
+{
+    border: 1px solid black;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.listModule input
+{
+    font-size: 20px;
+}
